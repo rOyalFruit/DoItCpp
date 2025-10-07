@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1cae3196-8a60-4880-8aa6-93eac1188a98}</ProjectGuid>
-    <RootNamespace>My18simplebank</RootNamespace>
+    <ProjectGuid>{ee3f64b3-5421-4a18-8f2e-2fb379bed7f3}</ProjectGuid>
+    <RootNamespace>My18virtualdestructor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="18_simple_bank.cpp" />
+    <ClCompile Include="18_virtual_destructor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

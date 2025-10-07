@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20_function_chaining.cpp">
+    <ClCompile Include="26_encapsulation_applied.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

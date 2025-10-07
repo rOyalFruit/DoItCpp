@@ -35,7 +35,7 @@ void bank::reset_account() {
 int main() {
 	bank rich_bank("부유한 은행"), global_bank("세계적 은행");
 	rich_bank.use_counter(50, 10);
-	
+
 	global_bank.transfer_account(rich_bank.get_safe());
 	rich_bank.reset_account();
 

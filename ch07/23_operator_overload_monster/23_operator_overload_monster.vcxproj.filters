@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="18_simple_bank.cpp">
+    <ClCompile Include="23_operator_overload_monster.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

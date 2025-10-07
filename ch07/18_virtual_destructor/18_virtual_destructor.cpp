@@ -8,7 +8,7 @@ public:
 		cout << "monster 클래스 생성자" << endl;
 	}
 
-	~monster() {
+	virtual ~monster() { // 가상 소멸자로 정의
 		cout << "monster 클래스 소멸자" << endl;
 	}
 };
@@ -19,7 +19,7 @@ public:
 		cout << "monster_a 클래스 생성자" << endl;
 	}
 
-	~monster_a() { // 해당 소멸자가 호출되지 않음
+	virtual ~monster_a() { /// 가상 소멸자로 정의
 		cout << "monster_a 클래스 소멸자" << endl;
 	}
 };

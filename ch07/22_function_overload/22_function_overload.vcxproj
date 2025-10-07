@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dc63b764-c580-4101-8b22-73f89f3170b2}</ProjectGuid>
-    <RootNamespace>My19thispointer</RootNamespace>
+    <ProjectGuid>{61e9a579-715b-44e6-a3dd-1721d4fabf1e}</ProjectGuid>
+    <RootNamespace>My22functionoverload</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="19_this_pointer.cpp" />
+    <ClCompile Include="22_function_overload.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

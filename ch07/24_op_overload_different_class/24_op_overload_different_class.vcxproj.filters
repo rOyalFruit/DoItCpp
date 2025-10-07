@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="22_operator_overload_monster.cpp">
+    <ClCompile Include="24_op_overload_different_class.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

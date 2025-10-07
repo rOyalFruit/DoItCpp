@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f89f067d-6313-4e8b-a1c3-f07930ae7dea}</ProjectGuid>
-    <RootNamespace>My20functionchaining</RootNamespace>
+    <ProjectGuid>{4f136f5f-759b-411d-808a-9b954f318708}</ProjectGuid>
+    <RootNamespace>My23operatoroverloadmonster</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20_function_chaining.cpp" />
+    <ClCompile Include="23_operator_overload_monster.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

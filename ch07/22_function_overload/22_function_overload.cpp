@@ -4,7 +4,7 @@ using namespace std;
 
 class character {
 public:
-	character() : location{ 0, 0 }{}
+	character() : location{ 0, 0 } {}
 
 	// 매개변수로 x, y 좌표를 전달받음.
 	void move(int x, int y) {
