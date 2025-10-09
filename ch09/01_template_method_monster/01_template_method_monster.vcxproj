@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2d812a81-8aa2-43f0-a327-0874a5d06c3d}</ProjectGuid>
-    <RootNamespace>My01helloworld</RootNamespace>
+    <ProjectGuid>{ccdd6cb3-fc72-46bd-a34d-ee60a53c90ea}</ProjectGuid>
+    <RootNamespace>My01templatemethodmonster</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,20 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ch09\01_template_method_monster\main.cpp" />
-    <ClCompile Include="..\..\ch09\01_template_method_monster\monster.cpp" />
-    <ClCompile Include="..\..\ch09\01_template_method_monster\monster_factory.cpp" />
-    <ClCompile Include="01_hello_world.cpp" />
+    <ClCompile Include="01_template_method_monster.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="monster_factory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\ch09\01_template_method_monster\character.h" />
-    <ClInclude Include="..\..\ch09\01_template_method_monster\monster.h" />
-    <ClInclude Include="..\..\ch09\01_template_method_monster\monster_factory.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\ch09\01_template_method_monster\01_template_method_monster.vcxproj" />
-    <None Include="..\..\ch09\01_template_method_monster\01_template_method_monster.vcxproj.filters" />
-    <None Include="..\..\ch09\01_template_method_monster\README.md" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="monster_factory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

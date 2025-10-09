@@ -15,33 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_hello_world.cpp">
+    <ClCompile Include="01_template_method_monster.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ch09\01_template_method_monster\monster.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ch09\01_template_method_monster\monster_factory.cpp">
+    <ClCompile Include="monster.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ch09\01_template_method_monster\main.cpp">
+    <ClCompile Include="monster_factory.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\ch09\01_template_method_monster\character.h">
+    <ClInclude Include="character.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ch09\01_template_method_monster\monster.h">
+    <ClInclude Include="monster.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\ch09\01_template_method_monster\monster_factory.h">
+    <ClInclude Include="monster_factory.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\ch09\01_template_method_monster\README.md" />
-    <None Include="..\..\ch09\01_template_method_monster\01_template_method_monster.vcxproj.filters" />
-    <None Include="..\..\ch09\01_template_method_monster\01_template_method_monster.vcxproj" />
   </ItemGroup>
 </Project>
